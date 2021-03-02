@@ -21,12 +21,12 @@ Technologies:
 
 Software applications:
 
--Photoshop;
--Zeplin;
+- Photoshop;
+- Zeplin;
 
 ## Code examples:
 
-https://akramgafurov.github.io/BinoApp/
+- [web app Bino](https://akramgafurov.github.io/BinoApp/)
 
 ## Education:
 
