@@ -6,11 +6,11 @@
 
 **E-mail:** AKRAMMinsk@yandex.by
 
-## **Personal statement:**
+## Personal statement:
 
 I want to get a new modern profession. And i am sure that rs-school help me.
 
-## **Computer Skills:**
+## Computer Skills:
 
 Technologies:
 
@@ -24,17 +24,21 @@ Software applications:
 -Photoshop;
 -Zeplin;
 
-## **Education:**
+## Code examples:
+
+https://akramgafurov.github.io/BinoApp/
+
+## Education:
 
 The Polotsk State University. Assigned qualification:Civil engineer
 
-## **Courses:**
+## Courses:
 
 - 2019 - Englishpapa: English Course (Pre-intermediate);
 - 2019 - It-Academy: Computer Science Fundamentals Course;
 - 2019 - It-Academy: Website development with HTML, CSS & JAVASCRIPT;
 
-## **English Skills:**
+## English Skills:
 
 - 2019 - Englishpapa: English Course (Pre-intermediate);
 - 2019 - Englishpapa: English Course (Pre-intermediate);
