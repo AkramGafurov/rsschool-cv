@@ -41,4 +41,4 @@ The Polotsk State University. Assigned qualification:Civil engineer
 ## English Skills:
 
 - 2019 - Englishpapa: English Course (Pre-intermediate);
-- 2019 - Englishpapa: English Course (Pre-intermediate);
+- 2019 - Englishpapa: English Speaking Club (Pre-intermediate);
