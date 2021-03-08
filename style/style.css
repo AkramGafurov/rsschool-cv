@@ -25,6 +25,10 @@ a {
   border-bottom: 1px solid;
 }
 
+.header__contacts {
+  list-style: none;
+}
+
 .title {
   flex-basis: 30%;
 }
