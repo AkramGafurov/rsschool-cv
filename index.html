@@ -78,10 +78,26 @@
 
         <section class="code">
           <h2 class = "code__title title">Code examples:
-          </h2>
-          <ul class="code__list">
+          </h2>          
+            <pre class="code__example">
+              <code>function myLanguages(results) {
+                return Object.keys(results).filter(lang => results[lang]>=60).sort((lang1, lang2 )=>
+                results[lang2] - results[lang1])
+              }</code>
+            </pre>
+        
+         
+          <!-- <ul class="code__list">
+            <li>
+              <pre>
+                <code>function myLanguages(results) {
+                  return Object.keys(results).filter(lang => results[lang]>=60).sort((lang1, lang2 )=>
+                  results[lang2] - results[lang1])
+                }</code>
+              </pre>
+            </li>
             <li class="code__item"><a class="code__link" href="https://akramgafurov.github.io/BinoApp/">web app Bino</a></li>
-          </ul>
+          </ul> -->
         </section>
 
         <section class="education">
@@ -110,6 +126,11 @@
           <li class="english__item">2019 - Englishpapa: English Speaking Club (Pre-intermediate);
           </li>
         </ul>
+        </section>
+
+        <section class="presentation">
+          <h2 class = "presentation__title title">About myself </h2>              
+          <iframe width="400" height="225" src="https://www.youtube.com/embed/ehQc3Zmvu7g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </section>
 
       </main>

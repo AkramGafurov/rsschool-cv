@@ -74,8 +74,29 @@ section {
   margin-right: 50px;
 }
 
+.code__example {
+  overflow: auto;
+  background-color: indianred;
+  padding-top: 10px;
+  color: white;
+}
+
+code {
+  color: white;
+}
+
 .english {
   margin-bottom: 0;
+}
+
+.presentation {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+iframe {
+  border-radius: 30px;
 }
 
 .footer {
@@ -94,6 +115,7 @@ svg {
   width: 100px;
   height: 100px;
 }
+
 
 @media all and (max-width: 720px) {
   .header {
@@ -146,6 +168,14 @@ svg {
   .title {
     font-size: 18px;
   }
+  .code {
+    flex-direction: column;
+  }
+  .code__example {
+    width: 90%;
+
+  }
+
 }
 
 @media all and (max-width: 420px) {
@@ -159,5 +189,9 @@ svg {
   }
   .title {
     margin-bottom: 10px;
+  }
+  iframe {
+    width: 300px;
+    height: 170px;
   }
 }
