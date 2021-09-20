@@ -26,6 +26,17 @@ Software applications:
 
 ## Code examples:
 
+- Task: You are given a dictionary/hash/object containing some languages and your test results in the given languages. Return the list of languages where your test score is at least 60, in descending order of the results.
+
+Note: the scores will always be unique (so no duplicate values)
+
+```
+function myLanguages(results) {
+  return Object.keys(results).filter(lang => results[lang]>=60).sort((lang1, lang2 )=>
+  results[lang2] - results[lang1])
+}
+```
+
 - [web app Bino](https://akramgafurov.github.io/BinoApp/)
 
 ## Education:
@@ -42,3 +53,7 @@ The Polotsk State University. Assigned qualification:Civil engineer
 
 - 2019 - Englishpapa: English Course (Pre-intermediate);
 - 2019 - Englishpapa: English Speaking Club (Pre-intermediate);
+
+```
+
+```
