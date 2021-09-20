@@ -21,8 +21,16 @@ a {
   display: flex;
   justify-content: space-around;
   margin-bottom: 20px;
+  background-color: lavender;
+  padding-top: 20px;
   padding-bottom: 20px;
   border-bottom: 1px solid;
+}
+
+.header__logo {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
 }
 
 .header__contacts {
@@ -46,14 +54,20 @@ section {
   margin-right: 50px;
 }
 
+.english {
+  margin-bottom: 0;
+}
+
 .footer {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding: 0 20px;
+  background-color: lavender;
 }
 
-.footer__git-link {
-  font-weight: bold;
+.footer__git-link img {
+  width: 70px;
 }
 
 svg {
