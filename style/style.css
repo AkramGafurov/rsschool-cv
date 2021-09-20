@@ -9,6 +9,12 @@ a {
   text-decoration: none;
 }
 
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+
 .cv {
   max-width: 960px;
   width: 100%;
@@ -38,6 +44,7 @@ a {
 }
 
 .title {
+  margin-right: 20px;
   flex-basis: 30%;
 }
 
@@ -48,6 +55,11 @@ section {
   margin-bottom: 20px;
   padding-bottom: 20px;
   border-bottom: 1px solid;
+}
+
+.skills__content {
+  margin-bottom: 0;
+  border-bottom: none;
 }
 
 .skills__technologies {
@@ -73,4 +85,61 @@ section {
 svg {
   width: 100px;
   height: 100px;
+}
+
+@media all and (max-width: 520px) {
+  .header__name {
+    font-size: 20px;
+  }
+  .header__occupation {
+    font-size: 15px;
+  }
+  .contacts__title,
+  .contacts__phone {
+    font-size: 15px;
+  }
+  .title {
+    font-size: 20px;
+  }
+}
+
+@media all and (max-width: 420px) {
+  .header {
+    align-items: center;
+    flex-direction: column;
+  }
+  .header__logo {
+    margin-bottom: 15px;
+  }
+  .header__occupation {
+    font-size: 15px;
+    margin-bottom: 15px;
+  }
+  .header__name {
+    font-size: 18px;
+  }
+  .header__occupation {
+    font-size: 15px;
+  }
+  .contacts__title,
+  .contacts__phone {
+    font-size: 15px;
+  }
+  .title {
+    font-size: 18px;
+  }
+}
+
+@media all and (max-width: 420px) {
+  .statement,
+  .skills,
+  .code,
+  .education,
+  .courses,
+  .english {
+    flex-direction: column;
+  }
+  .title {
+    margin-bottom: 10px;
+  }
 }
