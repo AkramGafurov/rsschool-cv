@@ -45,3 +45,18 @@ section {
 .skills__technologies {
   margin-right: 50px;
 }
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer__git-link {
+  font-weight: bold;
+}
+
+svg {
+  width: 100px;
+  height: 100px;
+}
