@@ -5,6 +5,7 @@
   color: #333;
   box-sizing: border-box;
 }
+
 body {
   background-color: #f5f5f5;
 }
@@ -99,6 +100,18 @@ iframe {
   border-radius: 30px;
 }
 
+.works__content {
+  list-style: none;
+}
+
+.works__img {
+  width: 320px;
+}
+
+.works__technologies {
+  list-style: disc;
+}
+
 .footer {
   display: flex;
   align-items: center;
@@ -118,10 +131,12 @@ svg {
 
 
 @media all and (max-width: 720px) {
+
   .header {
     padding-left: 5px;
     padding-right: 5px;
   }
+
   .header__name {
     padding: 0 5px;
     font-size: 20px;
@@ -133,20 +148,29 @@ svg {
     font-size: 15px;
     text-align: center;
   }
+
   .contacts__title,
   .contacts__phone {
     font-size: 15px;
   }
+
   .title {
     font-size: 20px;
+  }
+
+  .works {
+    flex-direction: column;
+    align-items: center;
   }
 }
 
 @media all and (max-width: 460px) {
+
   .header {
     align-items: center;
     flex-direction: column;
   }
+
   .header__logo {
     margin-bottom: 15px;
   }
@@ -155,30 +179,36 @@ svg {
     font-size: 15px;
     margin-bottom: 15px;
   }
+  
   .header__name {
     font-size: 18px;
   }
+
   .header__occupation {
     font-size: 15px;
   }
+
   .contacts__title,
   .contacts__phone {
     font-size: 15px;
   }
+
   .title {
     font-size: 18px;
   }
+  
   .code {
     flex-direction: column;
   }
+
   .code__example {
     width: 90%;
-
   }
 
 }
 
 @media all and (max-width: 420px) {
+
   .statement,
   .skills,
   .code,
@@ -187,11 +217,18 @@ svg {
   .english {
     flex-direction: column;
   }
+
   .title {
     margin-bottom: 10px;
   }
+
   iframe {
-    width: 300px;
-    height: 170px;
+    width: 250px;
+    height: 140px;
   }
+
+  .works__img {
+    width: 200px;
+  }
+  
 }
