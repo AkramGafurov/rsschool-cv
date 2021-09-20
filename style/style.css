@@ -97,6 +97,8 @@ code {
 }
 
 iframe {
+  width: 400px;
+  height: 225px;
   border-radius: 30px;
 }
 
@@ -230,5 +232,5 @@ svg {
   .works__img {
     width: 200px;
   }
-  
+
 }
